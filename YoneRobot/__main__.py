@@ -87,7 +87,7 @@ buttons = [
             text="➕️ ᴀᴅᴅ Ironman ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Ironman_group_assist_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="ironman_",
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="ironman_"),
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironman_support_group"
             
