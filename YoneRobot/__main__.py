@@ -89,7 +89,7 @@ buttons = [
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="IRONMAN_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironman_suuport_group"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironman_support_group"
             
         ),
     ],
@@ -351,7 +351,7 @@ def help_button(update, context):
 @run_async
 def ironman_about_callback(update, context):
     query = update.callback_query
-    if query.data == "yone_":
+    if query.data == "IRONMAN_":
         query.message.edit_text(
             text=""" ℹ️ I'm IRONMAM, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
