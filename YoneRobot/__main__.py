@@ -87,7 +87,7 @@ buttons = [
             text="➕️ ᴀᴅᴅ Ironman ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Ironman_group_assist_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="IRONMAN_"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="ironman_",
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironman_support_group"
             
@@ -351,9 +351,9 @@ def help_button(update, context):
 @run_async
 def ironman_about_callback(update, context):
     query = update.callback_query
-    if query.data == "IRONMAN_":
+    if query.data == "ironman_":
         query.message.edit_text(
-            text=""" ℹ️ I'm IRONMAM, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm IRONMAN, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
