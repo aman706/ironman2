@@ -89,8 +89,8 @@ buttons = [
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="IRONMAN_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironman_suuport_group
-            "
+            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironman_suuport_group"
+            
         ),
     ],
     [
