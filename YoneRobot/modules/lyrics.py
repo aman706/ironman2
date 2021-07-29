@@ -1,7 +1,7 @@
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
 
-from from aiohttp import ClientSession
+from aiohttp import ClientSession
 from Python_ARQ import ARQ
 
 from Yone import *
