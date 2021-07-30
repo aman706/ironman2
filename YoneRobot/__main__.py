@@ -27,7 +27,7 @@ from YoneRobot import (
 )
 
 # needed to dynamically load modules
-# NOTE: Module order is not guaranteed, specify that in the config file!
+# NOTE: Module order is not guaranteed, specify that in the config file
 from YoneRobot.modules import ALL_MODULES
 from YoneRobot.modules.helper_funcs.chat_status import is_user_admin
 from YoneRobot.modules.helper_funcs.misc import paginate_modules
@@ -368,12 +368,12 @@ def ironman_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="yone_back")
+                    InlineKeyboardButton(text="Back", callback_data="ironman_back")
                  ]
                 ]
             ),
         )
-    elif query.data == "yone_back":
+    elif query.data == "ironman_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
