@@ -89,7 +89,7 @@ buttons = [
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="ironman_"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironman_support_group"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironmansupportgroup"
             
         ),
     ],
@@ -106,7 +106,7 @@ HELP_STRINGS = """
 ironman_IMG = "https://telegra.ph/file/e1bff37e0e4c003d28646.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @kittu5588 \
+ You can support the project via [Paypal](#) or by contacting @Aman_57 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -353,7 +353,7 @@ def ironman_about_callback(update, context):
     query = update.callback_query
     if query.data == "ironman_":
         query.message.edit_text(
-            text=""" ℹ️ I'm IRONMAN, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm ironman, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
