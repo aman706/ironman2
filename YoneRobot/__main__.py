@@ -3,7 +3,6 @@ import time
 import re
 from sys import argv
 from typing import Optional
-
 from YoneRobot import (
     ALLOW_EXCL,
     CERT_PATH,
@@ -11,9 +10,6 @@ from YoneRobot import (
     LOGGER,
     OWNER_ID,
     PORT,
-    
-
-    
     SUPPORT_CHAT,
     TOKEN,
     URL,
@@ -121,7 +117,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("YoneRobot.modules" + module_name)
+    imported_module = importlib.import_module("YoneRobot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
