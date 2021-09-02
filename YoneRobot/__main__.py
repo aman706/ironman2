@@ -90,12 +90,7 @@ buttons = [
             text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironmansupportgroup"
             
         ),
-    ],
-  [
-       InlineKeyboardButton(
-            text="OWNER", url="https://t.me/aman_57"
-            
-        ),
+    
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
