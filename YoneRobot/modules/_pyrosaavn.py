@@ -34,3 +34,9 @@ async def song(client, message):
     await message.reply_audio(audio=ffile, title=sname, performer=ssingers)
     os.remove(ffile)
     await m.delete()
+    
+    __help__ = """
+ ❍ /saavn*:* Fetches songs from saavn from given song name
+"""
+
+__mod_name__ = "song"
