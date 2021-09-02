@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 ʜᴇʟʟᴏ [🤗](https://telegra.ph/file/e1bff37e0e4c003d28646.jpg), ɪᴍ IRONMAN ᴀ ʜɪɢʜʏ ᴀᴅᴠᴀɴᴄᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴀᴍᴀᴢɪɴɢ ᴛᴏᴏʟꜱ.
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help   
+`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪᴛ` /help  MY OWNER - @aman_57 
 """
 
 buttons = [
@@ -88,6 +88,10 @@ buttons = [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="ironman_"),
         InlineKeyboardButton(
             text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/ironmansupportgroup"
+            
+        ),
+       InlineKeyboardButton(
+            text="OWNER", url="https://t.me/aman_57"
             
         ),
     ],
