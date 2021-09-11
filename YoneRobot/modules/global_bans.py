@@ -14,9 +14,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import MissVisa.modules.sql.global_bans_sql as sql
-from MissVisa.modules.sql.users_sql import get_user_com_chats
-from MissVisa import (
+import YoneRobot.modules.sql.global_bans_sql as sql
+from YoneRobot.modules.sql.users_sql import get_user_com_chats
+from YoneRobot import (
     DEV_USERS,
     EVENT_LOGS,
     OWNER_ID,
@@ -30,16 +30,16 @@ from MissVisa import (
     sw,
     dispatcher,
 )
-from MissVisa.modules.helper_funcs.chat_status import (
+from YoneRobot.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from MissVisa.modules.helper_funcs.extraction import (
+from YoneRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from MissVisa.modules.helper_funcs.misc import send_to_list
+from YoneRobot.modules.helper_funcs.misc import send_to_list
 
 GBAN_ENFORCE_GROUP = 6
 
