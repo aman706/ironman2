@@ -7,7 +7,7 @@ from telethon.tl.types import InputMessagesFilterPhotos
 
 
 
-@telethn.on(events.NewMessage(pattern=f"^[!/]logol?(.*)"))
+@register(pattern="^/logol ?(.*)")
 async def logo_gen(event):
     xx = await eor(event, get_string("com_1"))
     name = event.pattern_match.group(1)
