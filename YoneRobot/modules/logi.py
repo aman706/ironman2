@@ -5,7 +5,7 @@ import random
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos
 
-from . import *
+
 
 @telethn.on(events.NewMessage(pattern=f"^[!/]logol?(.*)"))
 async def logo_gen(event):
