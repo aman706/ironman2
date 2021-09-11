@@ -7,7 +7,8 @@ from telethon.tl.types import InputMessagesFilterPhotos
 
 
 
-@register(pattern="^/logol")
+@run_async
+def logi(update: Update, context: CallbackContext):
 async def logo_gen(event):
     xx = await eor(event, get_string("com_1"))
     name = event.pattern_match.group(1)
